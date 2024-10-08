@@ -1,0 +1,31 @@
+/* VARIABLES */
+:root {
+  --text-black: #000;
+  --text-white: #fff;
+  --secondary-text-color: ;
+
+  --brand-green: #b9ff66;
+  --brand-black: #191a23;
+}
+
+/* TYPOGRAPHY */
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 3.75rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+}
+
+h4 {
+}
