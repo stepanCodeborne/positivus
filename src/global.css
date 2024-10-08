@@ -1,8 +1,7 @@
 /* VARIABLES */
 :root {
-  --text-black: #000;
-  --text-white: #fff;
-  --secondary-text-color: ;
+  --text-primary-color: #000;
+  --text-primary-color-light: #fff;
 
   --brand-green: #b9ff66;
   --brand-black: #191a23;
@@ -14,6 +13,21 @@ h2,
 h3,
 h4 {
   font-weight: 500;
+  color: var(--text-primary-color);
+  width: fit-content;
+}
+
+.header-bg {
+  padding: 0 0.438rem;
+  border-radius: 7px;
+}
+
+.header-bg.green {
+  background-color: var(--brand-green);
+}
+
+.header-bg.white {
+  background-color: #fff;
 }
 
 h1 {
@@ -25,7 +39,9 @@ h2 {
 }
 
 h3 {
+  font-size: 1.875rem;
 }
 
 h4 {
+  font-size: 1.25rem;
 }

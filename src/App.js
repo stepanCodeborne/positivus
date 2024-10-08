@@ -1,3 +1,3 @@
 export default function App() {
-  return;
+  return <h2 className="header-bg green">Some Heading</h2>;
 }
