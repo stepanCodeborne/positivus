@@ -1,10 +1,10 @@
 /* VARIABLES */
 :root {
-  --text-primary-color: #000;
-  --text-primary-color-light: #fff;
+  --text-color: #000;
+  --text-color-light: #fff;
 
   --brand-green: #b9ff66;
-  --brand-black: #191a23;
+  --brand-dark: #191a23;
 }
 
 /* TYPOGRAPHY */
@@ -13,7 +13,7 @@ h2,
 h3,
 h4 {
   font-weight: 500;
-  color: var(--text-primary-color);
+  color: var(--text-color);
   width: fit-content;
 }
 
@@ -53,8 +53,20 @@ p {
 a {
   text-decoration: none;
   color: inherit;
+  display: flex;
 }
 
 ul {
   list-style: none;
+}
+
+/* GLOBAL CLASSES AND STYLES */
+.section-content-container {
+  display: flex;
+  justify-content: center;
+}
+
+.section-content {
+  width: 90vw;
+  max-width: 1240px;
 }
