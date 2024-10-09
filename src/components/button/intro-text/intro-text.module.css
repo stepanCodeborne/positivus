@@ -1,0 +1,5 @@
+.introText {
+  display: flex;
+  align-items: start;
+  gap: 2.5rem;
+}

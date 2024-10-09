@@ -17,16 +17,16 @@ h4 {
   width: fit-content;
 }
 
-.header-bg {
+.heading-bg {
   padding: 0 0.438rem;
   border-radius: 7px;
 }
 
-.header-bg.green {
+.heading-bg.brand-green {
   background-color: var(--brand-green);
 }
 
-.header-bg.white {
+.heading-bg.white {
   background-color: #fff;
 }
 
