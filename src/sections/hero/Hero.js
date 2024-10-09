@@ -1,11 +1,15 @@
 import styles from "./hero.module.css";
 import Button from "../../components/button/Button";
 import Sponsors from "./sponsors/Sponsors";
+import SectionContent from "../../components/section-content/SectionContent";
 
 export default function Hero() {
   return (
-    <main className={`section-content-container ${styles.flexColumn}`}>
-      <div className={`section-content ${styles.heroContent}`}>
+    <main
+      id="hero"
+      className={`section-content-container ${styles.flexColumn}`}
+    >
+      <SectionContent className={styles.heroContent}>
         <div className={styles.left}>
           <h1>Navigating the digital landscape for success</h1>
           <p>
@@ -23,7 +27,7 @@ export default function Hero() {
             alt="illustration"
           />
         </div>
-      </div>
+      </SectionContent>
 
       <Sponsors />
     </main>

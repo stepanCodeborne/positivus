@@ -1,4 +1,4 @@
-/* VARIABLES */
+/** VARIABLES */
 :root {
   --text-color: #000;
   --text-color-light: #fff;
@@ -7,7 +7,7 @@
   --brand-dark: #191a23;
 }
 
-/* TYPOGRAPHY */
+/** TYPOGRAPHY */
 h1,
 h2,
 h3,
@@ -60,10 +60,11 @@ ul {
   list-style: none;
 }
 
-/* GLOBAL CLASSES AND STYLES */
+/** GLOBAL CLASSES AND STYLES */
 .section-content-container {
   display: flex;
   justify-content: center;
+  scroll-margin-top: 0;
 }
 
 .section-content {

@@ -1,10 +1,11 @@
 import Button from "../../components/button/Button";
+import SectionContent from "../../components/section-content/SectionContent";
 import styles from "./navbar.module.css";
 
 export default function NavBar() {
   return (
-    <nav className="section-content-container">
-      <div className={`section-content ${styles.content}`}>
+    <nav id="navbar" className="section-content-container">
+      <SectionContent className={styles.navContent}>
         <a href="/">
           <img src="images/logo-dark.svg" alt="logo" />
         </a>
@@ -16,7 +17,7 @@ export default function NavBar() {
             </a>
           </li>
           <li>
-            <a className={styles.link} href="#">
+            <a className={styles.link} href="#services">
               Services
             </a>
           </li>
@@ -41,7 +42,7 @@ export default function NavBar() {
             </Button>
           </li>
         </ul>
-      </div>
+      </SectionContent>
     </nav>
   );
 }
