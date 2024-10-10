@@ -6,7 +6,7 @@ export default function Service({
   className,
   imagePath,
   headingRows,
-  learnMoreLink = "#",
+  href = "#",
 }) {
   return (
     <div
@@ -24,7 +24,7 @@ export default function Service({
           ))}
         </div>
 
-        <a className={styles.serviceLink} href={learnMoreLink}>
+        <a className={styles.serviceLink} href={href}>
           <span className={styles.arrow}>
             <img
               src={

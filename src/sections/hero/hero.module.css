@@ -50,7 +50,7 @@
   justify-content: space-between;
 
   animation-name: auto-scroll-1;
-  animation-duration: 15s;
+  animation-duration: 23s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -60,7 +60,7 @@
   left: calc(100% + 5.994rem);
 
   animation-name: auto-scroll-2;
-  animation-duration: 15s;
+  animation-duration: 23s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }

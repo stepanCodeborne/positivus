@@ -1,3 +1,4 @@
+import CaseStudies from "./sections/case-studies/CaseStudies";
 import ContactOffer from "./sections/contact-offer/ContactOffer";
 import Hero from "./sections/hero/Hero";
 import NavBar from "./sections/navbar/NavBar";
@@ -10,6 +11,7 @@ export default function App() {
       <Hero />
       <Services />
       <ContactOffer />
+      <CaseStudies />
     </>
   );
 }

@@ -7,7 +7,7 @@ export default function Services() {
   return (
     <section id="services" className="section-content-container">
       <SectionContent className={styles.servicesContent}>
-        <IntroText sectionTitle="Services" descriptionMaxWidth="580px">
+        <IntroText sectionTitle="Services" descriptionMaxWidth="36.25rem">
           At our digital marketing agency, we offer a range of services to help
           businesses grow and succeed online. These services include:
         </IntroText>
