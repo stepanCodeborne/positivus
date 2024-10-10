@@ -1,4 +1,4 @@
-import IntroText from "../../components/button/intro-text/IntroText";
+import IntroText from "../../components/intro-text/IntroText";
 import SectionContent from "../../components/section-content/SectionContent";
 import Service from "../../components/service/Service";
 import styles from "./services.module.css";

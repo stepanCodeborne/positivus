@@ -5,6 +5,7 @@ export default function Button({
   className = "",
   onClick,
   type = "button",
+  href = "#",
   children,
 }) {
   return (
@@ -14,7 +15,7 @@ export default function Button({
       }`}
       type={type}
     >
-      <a href="#">{children}</a>
+      <a href={href}>{children}</a>
     </button>
   );
 }
