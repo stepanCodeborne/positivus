@@ -60,6 +60,10 @@ ul {
   list-style: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 /** GLOBAL CLASSES AND STYLES */
 .section-content-container {
   display: flex;
